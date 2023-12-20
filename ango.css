@@ -1,0 +1,390 @@
+
+
+a{
+	text-decoration: none;
+	  color:white;
+	  font-weight: 500;
+
+}
+
+
+.copy{
+
+	height: 50px;
+	background: transparent;
+	color: red;
+	  margin-top:20px;
+	  text-align: center;
+}
+
+html{
+	background: #171614;
+	width: 100%;
+	display:flex;
+justify-content: center;
+}
+body{
+	width:100%;
+	height:100%;
+	background:#141517;
+	opacity: 0.9;
+	 
+}
+.sbody{
+	width:90%;
+	height:100%;
+	border-radius: 10px;
+	border-color:transparent;
+	margin:auto;
+	  background-color:white;
+}
+.
+
+.div1{
+  border-bottom-width: 3px;
+	  border:solid 1px transparent;
+background:white;
+}
+.div2{
+
+	  border-bottom-width: 3px;
+	  border:solid 1px transparent;
+	background: red;
+	}
+.div3{
+	  background-color:black;
+	    width: 100%;
+	     display: grid;
+	      justify-content: center;
+	      overflow: hidden;
+}
+
+footer{
+  background-color:white;
+  height: 100%;
+  margin-top: -20px;
+}
+
+
+.div1,.div2,.div3{
+	  height:400px;
+	    width:100%;
+	    margin-top: 30px;
+
+
+}
+
+
+.barra{
+	  display: flex;
+	   justify-content: space-around;
+	     width:100%;
+	       height:55px;
+	       background-color:black;
+	       align-items: center;
+
+}
+  
+    .title{
+    	color: red;
+    	text-align: right;
+    	  font-size: 38px;
+    	    font-stretch: 600;
+    
+    	    font-family:inherit;
+    	    font-style: bold;
+    }
+    
+
+.ctxt{
+	   height:200px;
+	   width: 100%;
+	   background-color:transparent;
+	   color: white;
+	  
+}
+
+.assunto{
+	color: red;
+    	  font-size: 30px;
+    	  margin-left: 5%;
+    	    font-stretch: 500;
+    	    font-family: 'poppins';
+}
+
+.tct{
+	color: red;
+	  width:90%;
+	 margin-left: 50px;
+	    height: 50px;
+    	  font-size: 16px;
+    	    font-stretch: 400;
+    	    font-family: 'poppins';
+}
+
+.encomenda{
+	display:flex;
+	align-items: center;
+	width:350px;
+	margin-left: 50px;
+	   height:100px;
+	   font-size: 14px;
+}
+
+
+#enc{
+	width: 65%;
+	 height:34px;
+	 border: solid 2px red;
+	   background-color: white;
+	   color:red;
+	   font-stretch:500;
+}
+
+.send{
+	width:30%;
+	  height:40px;
+	    border:solid 2px transparent;
+	    color: white;
+	     background-color:black;
+}
+
+.div2{
+	 display:flex;
+	 justify-content:space-around;
+	 align-items: center;
+	   
+}
+
+.cteu{	
+display: grid;
+justify-content: space-around;
+align-items: center;
+background-color: white;
+     width:50%;
+	 height:300px;
+	border-radius: 5px;
+	margin-left:1px;
+	border: solid 1px transparent;
+}
+
+.ft-conteudo{
+	height: 60%;
+	 width:99%;
+	 margin-left:1px;
+	 border:solid 1px black;
+	 border-radius: 5px;
+}
+
+img[alt="ic"]{
+	   width: 100%;
+	     height:100%;
+	     border-radius: 5px;
+	     border:solid 1px white;
+}
+
+.texto{
+      width:100%;
+        height:100%;
+ margin:auto;
+ text-align: left;
+          color:red;
+          font-size: 12px;
+          margin-left:50px;
+
+          font-family: 'poppins';
+          font-weight: 600;
+}
+
+
+
+.texto1{
+      width:95%;
+        height:100%;
+
+          color:red;
+          font-size: 9px;
+          margin-left:8px;
+          text-indent: 10px;
+
+          font-family: 'poppins';
+          font-weight: 600;
+}
+
+
+
+.div3{
+	 display: flex;
+	 justify-content: space-around;
+
+}
+
+.form{
+	  width:45%;
+	    height:100%;
+	     display: flex;
+	   justify-content: center;
+	   align-items: center;
+
+}
+
+
+input[name="nome"]{
+	height: 40px;
+	  width:300px;
+	   border-radius: 5px;
+	   border:solid 1px black;
+	   font-weight: 400;
+	   color: black;
+	    font-size:17px;
+	   margin-top:5px;
+}
+
+input[type="submit"]{
+	height: 40px;
+	  width:300px;
+	  margin-top: 15px;
+	   border-radius: 5px;
+	   color: white;
+	   font-size:18px;
+	   border:solid 1px white;
+	   background-color: black;
+}
+    input[type="submit"]:active{
+
+    	color: black;
+    	 background: white;
+    }
+
+
+    input[type="submit"]:hover{
+    	background:#ccc;
+    	  transition-duration: background 3s
+    }
+label[for="nome"]{
+font-size: 17px;
+font-stretch: 500;
+  color: white;
+  margin-top:5px;
+}
+.justSee{
+	    background-color:red;
+	      color: white;
+	      width:55%;
+	       height:400px;
+	       margin-top:0px;
+	      font-size: 28px;
+	      font-stretch: 400;
+	      font-family: 'poppins';
+}
+
+@media screen(max-width: 200px){
+
+	.justSee{
+		  background-color:black;
+	}
+}
+      .t{
+      	   text-align: center;
+      	   font-size: 35px;
+	      font-stretch: 600;
+	    
+      	  animation-name: letter;
+      	  animation-duration: 3s;
+      	  animation-iteration-count: infinite;
+      	  animation-timing-function: ease;
+      }
+
+@keyframes letter{
+0%{
+	 font-size: 50px;
+
+	      font-stretch: 600;
+	      margin-top: -35px;
+}
+
+40%{
+ font-size: 36px;
+ font-stretch: 800;
+	      font-stretch: 600;
+	      margin-left: 5px;
+	      color: white;
+}
+
+70%{
+	font-stretch: 800;
+ font-size: 36px;
+	      font-stretch: 600;
+	      margin-left: -5px;
+	      color: white;
+}
+80%{
+ font-size: 36px;
+	      font-stretch: 600;
+	      margin-left: 5px;
+	      color: white;
+}
+90%{
+ font-size: 36px;
+	      font-stretch: 600;
+	      margin-left: -25px;
+	      color: white;
+}
+
+
+
+100%{
+ font-size: 50px;
+	      font-stretch: 600;
+	      margin-top:0px;
+}
+
+
+
+}
+
+
+.comm{
+	  font-stretch: 450;
+	    font-family: 'poppins';
+	    font-size: 14px;
+          color: white;
+             text-align: center;
+
+}
+.ctxt1{
+ color: white;
+   font-size: 30px;
+     font-stretch: 500;
+     text-align: center;
+}
+
+
+.cont{
+	margin-top: 50px;
+	display: flex;
+	color: white;
+	margin-left: 0px;
+	width: 100%;
+	height:300px;
+	  font-size: 18px;
+	  text-align:center;
+  background:#141517;
+}
+
+.tfoot{
+color:white;
+	  text-align: center;
+	  height: 40px;
+	  width:100%;
+	  margin-top: 10px;
+}
+
+
+.foot{
+	
+	  text-align: left;
+	 
+	align-items: top;
+	  width:90%;}
+	 
